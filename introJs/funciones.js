@@ -27,3 +27,4 @@ function promedio(notas) {
 }
 
 console.log("El promedio es de ", promedio(notas));
+console.log(notas);
