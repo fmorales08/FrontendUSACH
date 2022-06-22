@@ -1,0 +1,32 @@
+@font-face {
+	font-family: "pokemon";
+	src: url("../assets/fonts/Pokemon\ Solid.ttf");
+}
+body {
+	font-family: "Open Sans", Helvetica, sans-serif;
+	text-align: center;
+	margin: 20px;
+}
+
+img {
+	max-height: 150px;
+	margin: auto;
+	display: inline-block;
+}
+h1 {
+	font-family: "pokemon";
+	font-weight: 400;
+	color: #ffcc03;
+	-webkit-text-stroke: 1px blue;
+}
+
+.card {
+	display: inline-block;
+	width: 300px;
+	padding: 1em;
+	border-radius: 15px;
+	margin: 10px;
+	background: #ddd;
+	text-align: center;
+	box-shadow: 0px 0px 12px -1px #000000;
+}
