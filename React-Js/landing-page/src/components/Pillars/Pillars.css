@@ -1,0 +1,38 @@
+.Greeting {
+	display: flex;
+	flex-flow: column nowrap;
+	background-color: #fafafa;
+	align-items: center;
+	justify-content: center;
+	padding: 40px 200px;
+}
+
+.Greeting h1 {
+	justify-content: center;
+}
+.Greeting p {
+	color: gray;
+}
+
+.Pillars {
+	background-color: #1d2951;
+	display: flex;
+	flex-direction: row;
+	padding: 40px;
+	justify-content: space-around;
+}
+.Pillar-content {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	width: 250px;
+	padding: 15px;
+}
+.Pillar-content h1,
+a {
+	color: white;
+}
+
+.Pillar-content p {
+	color: gray;
+}

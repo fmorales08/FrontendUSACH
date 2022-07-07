@@ -1,0 +1,11 @@
+img {
+	height: 700px;
+	filter: brightness(50%);
+}
+
+.slider-caption {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
